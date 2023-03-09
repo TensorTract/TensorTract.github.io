@@ -1,2 +1,1 @@
-TensorTract
-{% include content.html %}
+# TensorTract
