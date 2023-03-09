@@ -1,6 +1,8 @@
 <head>
     <title>TensorTract</title>
   </head>
+<div class='particle-network-animation'>
+</div>
 <div style="text-align: center;">
 <h2><b>Self-Supervised Solution to the Control Problem of Articulatory Synthesis</b></h2>
 <p> Interspeech 2023, Authors will be revealed upon paper acceptance </p>
