@@ -1,5 +1,7 @@
 <html lang="pt-br">
   <head>
+  <div class='particle-network-animation'>
+  </div>
     <meta charset="UTF-8">
     <title>TensorTract</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,13 +14,10 @@
   <body>
     <section id="page-header" class="page-header">
         <div id="bg-header"></div>
-        <canvas id="demo-canvas"></canvas>
         <div class="main-title">
-          <h1 class="project-name"><span><a href="index.html">TensorTract</a></span></h1>
-
-          <h2 class="project-tagline">Self-Supervised Solution to the Control Problem of Articulatory Synthesis</h2>
-
-        </div>-->
+          <h1 class="project-name"><span>TensorTract</span></h1>
+        </div>
+        </div>
     </section>
 
     <section class="main-content">
@@ -28,8 +27,7 @@
        <a href="" class="btn2">• Paper •</a></li>
        <a href="" class="btn2">• Examples •</a></li>
       </center>
-<div class='particle-network-animation'>
-</div>
+
 <div style="text-align: center;">
 <h2><b>Self-Supervised Solution to the Control Problem of Articulatory Synthesis</b></h2>
 <p> Interspeech 2023, Authors will be revealed upon paper acceptance </p>
