@@ -1,3 +1,4 @@
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8">
     <title>TensorTract</title>
@@ -8,6 +9,25 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
+  <body>
+    <section id="page-header" class="page-header">
+        <div id="bg-header"></div>
+        <canvas id="demo-canvas"></canvas>
+        <div class="main-title">
+          <h1 class="project-name"><span><a href="index.html">TensorTract</a></span></h1>
+
+          <h2 class="project-tagline">Self-Supervised Solution to the Control Problem of Articulatory Synthesis</h2>
+
+        </div>-->
+    </section>
+
+    <section class="main-content">
+
+      <center>
+        <a href="" class="btn2">• GitHub •</a>
+       <a href="" class="btn2">• Paper •</a></li>
+       <a href="" class="btn2">• Examples •</a></li>
+      </center>
 <div class='particle-network-animation'>
 </div>
 <div style="text-align: center;">
