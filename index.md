@@ -1,26 +1,3 @@
-<html lang="pt-br">
-  <head>
-  <div class='particle-network-animation'>
-  </div>
-    <meta charset="UTF-8">
-    <title>TensorTract</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" type="image/x-icon" href="favicons/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section id="page-header" class="page-header">
-        <div id="bg-header"></div>
-        <div class="main-title">
-          <h1 class="project-name"><span>TensorTract</span></h1>
-        </div>
-        </div>
-    </section>
-
-    <section class="main-content">
 
       <center>
         <a href="" class="btn2">• GitHub •</a>
