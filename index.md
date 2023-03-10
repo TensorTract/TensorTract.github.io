@@ -19,10 +19,10 @@
 <div style="text-align: justify"> 
 Given an articulatory-to-acoustic forward model, it is a priori unknown how its motor control must be operated to achieve a desired acoustic result. This control problem is a fundamental issue of articulatory speech synthesis and the cradle of acoustic-to-articulatory inversion, a discipline which attempts to address the issue by the means of various methods. This work presents an end-to-end solution to the articulatory control problem, in which synthetic motor trajectories of Monte-Carlo-generated artificial speech are linked to input modalities (such as natural speech recordings or phoneme sequence input) via speaker-independent latent representations of a vector-quantized variational autoencoder. The proposed method is self-supervised and thus, in principle, synthesizer and speaker model independent.
 </div>
-    
-
-    
-    
+\
+\
+\
+\
 <div style="text-align: center;">
 <h2>Acoustic-to-Articulatory Inversion</h2>
 </div>
@@ -33,7 +33,6 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
 <tr><td>Model</td><td colspan="12">Utterances </td></tr>
 <tr>
   <td></td>
- 
 	<td>A</td><td>B</td><td>C</td><td>D</td>
 	<td>E</td><td>F</td><td>G</td><td>1</td>
 	<td>2</td><td>3</td>
