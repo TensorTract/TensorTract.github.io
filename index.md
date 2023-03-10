@@ -8,9 +8,9 @@
 <div style="text-align: center;">
 <h2><b>Self-Supervised Solution to the Control Problem of Articulatory Synthesis</b></h2>
 <p> Interspeech 2023, Authors will be revealed upon paper acceptance </p>
+<p> Code, models and the paper itself will be published upon paper acceptance </p>
 </div>
 
-Test
 
 <div style="text-align: center;">
 <h3>Abstract</h3>
@@ -18,8 +18,8 @@ Test
 <div style="text-align: justify"> 
 Given an articulatory-to-acoustic forward model, it is a priori unknown how its motor control must be operated to achieve a desired acoustic result. This control problem is a fundamental issue of articulatory speech synthesis and the cradle of acoustic-to-articulatory inversion, a discipline which attempts to address the issue by the means of various methods. This work presents an end-to-end solution to the articulatory control problem, in which synthetic motor trajectories of Monte-Carlo-generated artificial speech are linked to input modalities (such as natural speech recordings or phoneme sequence input) via speaker-independent latent representations of a vector-quantized variational autoencoder. The proposed method is self-supervised and thus, in principle, synthesizer and speaker model independent.
 </div>
-
-
+    
+    
 <div style="text-align: center;">
 <h2>Acoustic-to-Articulatory Inversion</h2>
 </div>
@@ -27,7 +27,7 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
 <p><b>Tested on natural audio samples</b></p>
 
 <table border="1">
-<tr><td>Model</td><td colspan="12">Unseen Speakers </td></tr>
+<tr><td>Model</td><td colspan="12">Utterances </td></tr>
 <tr>
   <td></td>
  
@@ -49,7 +49,7 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
 </tr>
-<tr><td>Condition 1</td>
+<tr><td>L2M + VTL</td>
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/k61be011.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/k61be018.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/k61be030.wav"></audio></td>
@@ -61,7 +61,7 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
 </tr>
-<tr><td>Condition 2</td>
+<tr><td>L2M + M2L + Hifi-Gan</td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
