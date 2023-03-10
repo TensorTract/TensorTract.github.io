@@ -4,3 +4,4 @@ plugins:
 
 title: TensorTract
 description: Self-Supervised Solution to the Control Problem of Articulatory Synthesis
+show_downloads: True
