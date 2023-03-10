@@ -20,6 +20,8 @@
 Given an articulatory-to-acoustic forward model, it is a priori unknown how its motor control must be operated to achieve a desired acoustic result. This control problem is a fundamental issue of articulatory speech synthesis and the cradle of acoustic-to-articulatory inversion, a discipline which attempts to address the issue by the means of various methods. This work presents an end-to-end solution to the articulatory control problem, in which synthetic motor trajectories of Monte-Carlo-generated artificial speech are linked to input modalities (such as natural speech recordings or phoneme sequence input) via speaker-independent latent representations of a vector-quantized variational autoencoder. The proposed method is self-supervised and thus, in principle, synthesizer and speaker model independent.
 </div>
     
+
+    
     
 <div style="text-align: center;">
 <h2>Acoustic-to-Articulatory Inversion</h2>
@@ -50,7 +52,7 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
 </tr>
-<tr><td>L2M + VTL</td>
+<tr><td>L2M+V</td>
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/k61be011.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/k61be018.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/k61be030.wav"></audio></td>
@@ -62,12 +64,36 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
 </tr>
-<tr><td>L2M + M2L + Hifi-Gan</td>
+<tr><td>L2M+H</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m_m2l/k61be011.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m_m2l/k61be018.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m_m2l/k61be030.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m_m2l/k61be037.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m_m2l/k61be061.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
+</tr>
+<tr><td>L2M+H (V-ID)</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m_m2l_mc_id/k61be011.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m_m2l_mc_id/k61be018.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m_m2l_mc_id/k61be030.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m_m2l_mc_id/k61be037.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m_m2l_mc_id/k61be061.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
+</tr>
+<tr><td>VQV+H</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/vqvae/k61be011.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/vqvae/k61be018.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/vqvae/k61be030.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/vqvae/k61be037.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/vqvae/k61be061.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
