@@ -1,9 +1,10 @@
 
-      <center>
-        <a href="" class="btn2">• GitHub •</a>
-       <a href="" class="btn2">• Paper •</a></li>
-       <a href="" class="btn2">• Examples •</a></li>
-      </center>
+
+[//]: #      <center>
+[//]: #        <a href="" class="btn2">• GitHub •</a>
+[//]: #       <a href="" class="btn2">• Paper •</a></li>
+[//]: #       <a href="" class="btn2">• Examples •</a></li>
+[//]: #      </center>
 
 <div style="text-align: center;">
 <h2><b>Self-Supervised Solution to the Control Problem of Articulatory Synthesis</b></h2>
