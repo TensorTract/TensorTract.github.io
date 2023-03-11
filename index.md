@@ -32,14 +32,16 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
 TensorTract is a compound model of multiple deep neural networks. It is capable to perform a number of tasks including acoustic-to-articulatory inversion (AAI), phoneme-to-articulatory conversion (P2A) and articulatory-to-acoustic neural speech synthesis. In case of AAI and P2A, TensorTract provides articulatory trajectories that are compatible with the state-of-the-art articulatory speech synthesizer VocalTractLab (VTL).
 </div>
 <br>
+<br>
 <img
   src="images/TensorTract_schematic.svg"
   alt="Schematic of the TensorTract model."
-  height="500"
+  height="300"
   />
 <br>
+<br>
 <div style="text-align: justify;">
-The centerpiece of TensorTract is a vector-quantized variational autoencoder (VQ-VAE), which maps log-melspectrograms via an TCN-based encoder to a speaker independent quantized latent representation and then back to log-mel features via a speaker and pitch conditioned decoder. The VQ-VAE is trained on both natural and synthetic speech, whereby the latter is generated randomly using VTL. In subsequent training processes, the synthetic articulatory trajectories are mapped to the quantized latent via a forward model M2L (motor-to-latent) and an inverse model L2M (latent-to-motor). This creates a link between natural speech data and synthetic articulatory trajectories. Further, phoneme annotations of the natural speech are mapped to the latent via another forward model P2L (phoneme-to-latent). This effectively enables the control of VTL via natural speech and/or phoneme sequence input.
+The centerpiece of TensorTract is a vector-quantized variational autoencoder (VQ-VAE), which maps log-melspectrograms via an TCN-based encoder to a speaker independent quantized latent representation and then back to log-mel features via a speaker and pitch conditioned TCN decoder. The VQ-VAE is trained on both natural and synthetic speech, whereby the latter is generated randomly using VTL. In subsequent training processes, the synthetic articulatory trajectories are mapped to the quantized latent via a multihead attention (MHA)-BiGRU forward model M2L (motor-to-latent) and a respective inverse model L2M (latent-to-motor). This creates a link between natural speech data and synthetic articulatory trajectories. Further, phoneme annotations of the natural speech are mapped to the latent via MHA+TCN-based forward model P2L (phoneme-to-latent). This effectively enables the control of VTL via natural speech and/or phoneme sequence input.
 </div>
 
 <br>
