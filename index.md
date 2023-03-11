@@ -316,7 +316,13 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
 
 </tr>
 
-
+<tr><td>Reference</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/dlmsi038.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/dlmsi063.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/dlmsi064.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/dlmsi072.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/dlmsi092.wav"></audio></td> 
+</tr>
 <tr><td>P2L+V</td>
   <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi038.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi063.wav"></audio></td>
@@ -325,11 +331,11 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
   <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi092.wav"></audio></td>
 </tr>
 <tr><td>VTL (Rule-based)</td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/vtl/KIELdlm_dlmsi038.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/vtl/KIELdlm_dlmsi063.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/vtl/KIELdlm_dlmsi064.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/vtl/KIELdlm_dlmsi072.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/vtl/KIELdlm_dlmsi092.wav"></audio></td>
 </tr>
 
 
