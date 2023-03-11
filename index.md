@@ -35,11 +35,11 @@ TensorTract is a compound model of multiple deep neural networks. It is capable 
 <img
   src="images/TensorTract_schematic.svg"
   alt="Schematic of the TensorTract model."
-  height="1000"
+  height="500"
   />
 <br>
-<div style="text-align: center;">
-The centerpiece of TensorTract is a vector-quantized variational autoencoder, which maps log-melspectrograms via an TCN-based encoder to a speaker independent quantized latent representation and then back to log-mel features via a speaker and pitch conditioned decoder.
+<div style="text-align: justify;">
+The centerpiece of TensorTract is a vector-quantized variational autoencoder (VQ-VAE), which maps log-melspectrograms via an TCN-based encoder to a speaker independent quantized latent representation and then back to log-mel features via a speaker and pitch conditioned decoder. The VQ-VAE is trained on both natural and synthetic speech, whereby the latter is generated randomly using VTL. In subsequent training processes, the synthetic articulatory trajectories are mapped to the quantized latent via a forward model M2L (motor-to-latent) and an inverse model L2M (latent-to-motor). This creates a link between natural speech data and synthetic articulatory trajectories. Further, phoneme annotations of the natural speech are mapped to the latent via another forward model P2L (phoneme-to-latent). This effectively enables the control of VTL via natural speech and/or phoneme sequence input.
 </div>
 
 <br>
