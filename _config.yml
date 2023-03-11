@@ -4,5 +4,5 @@ plugins:
 
 title: TensorTract
 #description: Self-Supervised Solution to the Control Problem of Articulatory Synthesis
-show_downloads: True
-site.github.zip_url: #ACOUSTIC_TO_ARTICULATORY_INVERSION
+#show_downloads: True
+#site.github.zip_url: #ACOUSTIC_TO_ARTICULATORY_INVERSION
