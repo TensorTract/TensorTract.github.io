@@ -172,7 +172,9 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
 
 <br>
 <div style="text-align: center;">
+<a id="ACOUSTIC_TO_ARTICULATORY_INVERSION">
 <h2>Phoneme-to-Articulatory Conversion</h2>
+</a>
 </div>
 
 <p><b>Tested on natural phoneme sequences</b></p>
