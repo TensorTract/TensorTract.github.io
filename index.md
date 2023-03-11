@@ -253,48 +253,48 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
   <td><audio controls style="width: 110px;" src="audio_examples/vtl/k61_k61be010.wav"></audio></td>
 </tr>
 <tr><td>M2L+H</td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be001.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be002.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be003.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be004.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be005.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be006.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be007.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be008.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be009.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be010.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be001.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be002.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be003.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be004.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be005.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be006.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be007.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be008.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be009.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be010.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be001_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be002_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be003_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be004_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be005_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be006_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be007_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be008_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be009_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be010_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be001_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be002_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be003_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be004_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be005_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be006_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be007_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be008_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be009_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be010_generated_e2e.wav"></audio></td>
 </tr>
 <tr><td>M2L+H (V-ID)</td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be001.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be002.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be003.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be004.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be005.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be006.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be007.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be008.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be009.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be010.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be001.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be002.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be003.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be004.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be005.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be006.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be007.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be008.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be009.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be010.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be001_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be002_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be003_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be004_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be005_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be006_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be007_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be008_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be009_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be010_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be001_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be002_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be003_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be004_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be005_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be006_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be007_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be008_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be009_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be010_generated_e2e.wav"></audio></td>
 </tr>
 
 
