@@ -20,6 +20,22 @@
 Given an articulatory-to-acoustic forward model, it is a priori unknown how its motor control must be operated to achieve a desired acoustic result. This control problem is a fundamental issue of articulatory speech synthesis and the cradle of acoustic-to-articulatory inversion, a discipline which attempts to address the issue by the means of various methods. This work presents an end-to-end solution to the articulatory control problem, in which synthetic motor trajectories of Monte-Carlo-generated artificial speech are linked to input modalities (such as natural speech recordings or phoneme sequence input) via speaker-independent latent representations of a vector-quantized variational autoencoder. The proposed method is self-supervised and thus, in principle, synthesizer and speaker model independent.
 </div>
 
+<br>
+<div style="text-align: center;">
+<a id="functionality">
+</a>
+<div style="text-align: center;">
+<h2>TensorTract Functionality</h2>
+</div>
+
+TensorTract is a compound model of multiple deep neural networks. It is capable to perform a number of tasks including acoustic-to-articulatory inversion (AAI), phoneme-to-articulatory conversion (P2A) and articulatory-to-acoustic neural speech synthesis. In case of AAI and P2A, TensorTract provides articulatory trajectories that are compatible with the state-of-the-art articulatory speech synthesizer VocalTractLab (VTL).
+
+<img
+  src="images/TensorTract_schematic.svg"
+  alt="Schematic of the TensorTract model."
+  height="100"
+  />
+
 
 <br>
 <div style="text-align: center;">
