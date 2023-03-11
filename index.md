@@ -208,31 +208,51 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
 </tr>
 
 
-<tr><td>Reference</td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
+<tr><td>P2L+V</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk02_k02be001.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk02_k02be002.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk02_k02be003.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk02_k02be004.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk02_k02be005.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk02_k02be006.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk02_k02be007.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk02_k02be008.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk02_k02be009.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk02_k02be010.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk61_k61be001.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk61_k61be002.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk61_k61be003.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk61_k61be004.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk61_k61be005.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk61_k61be006.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk61_k61be007.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk61_k61be008.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk61_k61be009.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/KIELk61_k61be010.wav"></audio></td>
 </tr>
-<tr><td>Condition 1</td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
+<tr><td>Rule-based VTL synthesis</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k02_k02be001.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k02_k02be002.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k02_k02be003.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k02_k02be004.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k02_k02be005.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k02_k02be006.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k02_k02be007.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k02_k02be008.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k02_k02be009.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k02_k02be010.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k61_k61be001.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k61_k61be002.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k61_k61be003.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k61_k61be004.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k61_k61be005.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k61_k61be006.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k61_k61be007.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k61_k61be008.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k61_k61be009.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/k61_k61be010.wav"></audio></td>
 </tr>
-<tr><td>Condition 2</td>
+<tr><td>M2L+H</td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/.wav"></audio></td>
