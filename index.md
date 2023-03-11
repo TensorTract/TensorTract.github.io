@@ -308,27 +308,12 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
 <tr>
   <td></td>
  
-  <td>k02be001</td>
-  <td>k02be002</td>
-  <td>k02be003</td>
-  <td>k02be004</td>
-  <td>k02be005</td>
-  <td>k02be006</td>
-  <td>k02be007</td>
-  <td>k02be008</td>
-  <td>k02be009</td>
-  <td>k02be010</td>
+  <td>dlmsi038</td>
+  <td>dlmsi063</td>
+  <td>dlmsi064</td>
+  <td>dlmsi072</td>
+  <td>dlmsi092</td>
 
-  <td>k61be001</td>
-  <td>k61be002</td>
-  <td>k61be003</td>
-  <td>k61be004</td>
-  <td>k61be005</td>
-  <td>k61be006</td>
-  <td>k61be007</td>
-  <td>k61be008</td>
-  <td>k61be009</td>
-  <td>k61be010</td>
 </tr>
 
 
@@ -339,12 +324,12 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
   <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi072.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi092.wav"></audio></td>
 </tr>
-<tr><td>Rule-based VTL synthesis</td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi038.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi063.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi064.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi072.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi092.wav"></audio></td>
+<tr><td>VTL (Rule-based)</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/.wav"></audio></td>
 </tr>
 
 
