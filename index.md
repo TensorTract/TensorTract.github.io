@@ -22,7 +22,7 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
 <br>
 
 <div style="text-align: center;">
-<a id="ACOUSTIC_TO_ARTICULATORY_INVERSION">
+<a id="audio_examples">
 <h2>Acoustic-to-Articulatory Inversion</h2>
 </a>
 </div>
