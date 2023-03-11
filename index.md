@@ -230,7 +230,7 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
   <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk61_k61be009.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk61_k61be010.wav"></audio></td>
 </tr>
-<tr><td>Rule-based VTL synthesis</td>
+<tr><td>VTL (Rule-based)</td>
   <td><audio controls style="width: 110px;" src="audio_examples/vtl/k02_k02be001.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/vtl/k02_k02be002.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/vtl/k02_k02be003.wav"></audio></td>
@@ -253,48 +253,48 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
   <td><audio controls style="width: 110px;" src="audio_examples/vtl/k61_k61be010.wav"></audio></td>
 </tr>
 <tr><td>M2L+H</td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be001.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be002.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be003.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be004.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be005.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be006.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be007.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be008.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be009.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be010.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be001.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be002.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be003.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be004.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be005.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be006.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be007.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be008.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be009.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be010.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be001_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be002_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be003_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be004_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be005_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be006_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be007_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be008_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be009_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be010_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be001_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be002_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be003_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be004_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be005_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be006_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be007_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be008_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be009_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be010_generated_e2e.wav"></audio></td>
 </tr>
 <tr><td>M2L+H (V-ID)</td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be001.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be002.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be003.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be004.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be005.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be006.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be007.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be008.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be009.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be010.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be001.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be002.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be003.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be004.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be005.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be006.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be007.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be008.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be009.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be010.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be001_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be002_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be003_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be004_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be005_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be006_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be007_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be008_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be009_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be010_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be001_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be002_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be003_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be004_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be005_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be006_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be007_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be008_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be009_generated_e2e.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be010_generated_e2e.wav"></audio></td>
 </tr>
 
 
@@ -308,117 +308,28 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
 <tr>
   <td></td>
  
-  <td>k02be001</td>
-  <td>k02be002</td>
-  <td>k02be003</td>
-  <td>k02be004</td>
-  <td>k02be005</td>
-  <td>k02be006</td>
-  <td>k02be007</td>
-  <td>k02be008</td>
-  <td>k02be009</td>
-  <td>k02be010</td>
+  <td>dlmsi038</td>
+  <td>dlmsi063</td>
+  <td>dlmsi064</td>
+  <td>dlmsi072</td>
+  <td>dlmsi092</td>
 
-  <td>k61be001</td>
-  <td>k61be002</td>
-  <td>k61be003</td>
-  <td>k61be004</td>
-  <td>k61be005</td>
-  <td>k61be006</td>
-  <td>k61be007</td>
-  <td>k61be008</td>
-  <td>k61be009</td>
-  <td>k61be010</td>
 </tr>
 
 
 <tr><td>P2L+V</td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk02_k02be001.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk02_k02be002.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk02_k02be003.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk02_k02be004.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk02_k02be005.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk02_k02be006.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk02_k02be007.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk02_k02be008.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk02_k02be009.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk02_k02be010.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk61_k61be001.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk61_k61be002.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk61_k61be003.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk61_k61be004.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk61_k61be005.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk61_k61be006.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk61_k61be007.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk61_k61be008.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk61_k61be009.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk61_k61be010.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi038.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi063.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi064.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi072.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi092.wav"></audio></td>
 </tr>
-<tr><td>Rule-based VTL synthesis</td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k02_k02be001.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k02_k02be002.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k02_k02be003.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k02_k02be004.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k02_k02be005.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k02_k02be006.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k02_k02be007.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k02_k02be008.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k02_k02be009.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k02_k02be010.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k61_k61be001.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k61_k61be002.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k61_k61be003.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k61_k61be004.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k61_k61be005.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k61_k61be006.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k61_k61be007.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k61_k61be008.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k61_k61be009.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/k61_k61be010.wav"></audio></td>
-</tr>
-<tr><td>M2L+H</td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be001.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be002.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be003.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be004.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be005.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be006.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be007.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be008.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be009.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k02_k02be010.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be001.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be002.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be003.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be004.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be005.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be006.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be007.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be008.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be009.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l/k61_k61be010.wav"></audio></td>
-</tr>
-<tr><td>M2L+H (V-ID)</td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be001.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be002.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be003.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be004.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be005.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be006.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be007.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be008.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be009.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k02_k02be010.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be001.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be002.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be003.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be004.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be005.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be006.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be007.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be008.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be009.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/m2l_mc_id/k61_k61be010.wav"></audio></td>
+<tr><td>VTL (Rule-based)</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/.wav"></audio></td>
 </tr>
 
 
