@@ -207,7 +207,28 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
   <td>k61be010</td>
 </tr>
 
-
+<tr><td>Reference</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k02be001.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k02be002.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k02be003.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k02be004.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k02be005.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k02be006.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k02be007.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k02be008.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k02be009.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k02be010.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k61be001.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k61be002.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k61be003.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k61be004.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k61be005.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k61be006.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k61be007.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k61be008.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k61be009.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/k61be010.wav"></audio></td>
+</tr>
 <tr><td>P2L+V</td>
   <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk02_k02be001.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/p2l/KIELk02_k02be002.wav"></audio></td>
