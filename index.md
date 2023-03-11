@@ -28,14 +28,19 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
 <h2>TensorTract Functionality</h2>
 </div>
 
+<div style="text-align: justify"> 
 TensorTract is a compound model of multiple deep neural networks. It is capable to perform a number of tasks including acoustic-to-articulatory inversion (AAI), phoneme-to-articulatory conversion (P2A) and articulatory-to-acoustic neural speech synthesis. In case of AAI and P2A, TensorTract provides articulatory trajectories that are compatible with the state-of-the-art articulatory speech synthesizer VocalTractLab (VTL).
-
+</div>
+<br>
 <img
   src="images/TensorTract_schematic.svg"
   alt="Schematic of the TensorTract model."
-  height="100"
+  height="1000"
   />
-
+<br>
+<div style="text-align: center;">
+The centerpiece of TensorTract is a vector-quantized variational autoencoder, which maps log-melspectrograms via an TCN-based encoder to a speaker independent quantized latent representation and then back to log-mel features via a speaker and pitch conditioned decoder.
+</div>
 
 <br>
 <div style="text-align: center;">
