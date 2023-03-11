@@ -23,8 +23,8 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
 
 <div style="text-align: center;">
 <a id="audio_examples">
-<h2>Acoustic-to-Articulatory Inversion</h2>
 </a>
+<h2>Acoustic-to-Articulatory Inversion</h2>
 </div>
 
 <p><b>Tested on natural audio samples (KIEL data set).</b></p>
