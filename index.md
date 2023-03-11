@@ -25,15 +25,34 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
 <h2>Acoustic-to-Articulatory Inversion</h2>
 </div>
 
-<p><b>Tested on natural audio samples</b></p>
+<p><b>Tested on natural audio samples (KIEL data set).</b></p>
 
 <table border="1">
 <tr><td>Model</td><td colspan="12">Utterances </td></tr>
 <tr>
   <td></td>
-	<td>A</td><td>B</td><td>C</td><td>D</td>
-	<td>E</td><td>F</td><td>G</td><td>1</td>
-	<td>2</td><td>3</td>
+ 
+  <td>k61be011</td>
+  <td>k61be018</td>
+  <td>k61be023</td>
+  <td>k61be030</td>
+  <td>k61be037</td>
+  <td>k61be061</td>
+  <td>k62be005</td>
+  <td>k62be024</td>
+  <td>k62be086</td>
+  <td>k62be095</td>
+
+  <td>k65be002</td>
+  <td>k65be013</td>
+  <td>k65be017</td>
+  <td>k65be075</td>
+  <td>k65be077</td>
+  <td>k66be008</td>
+  <td>k66be041</td>
+  <td>k66be060</td>
+  <td>k66be062</td>
+  <td>k66be063</td>
 </tr>
 
 
@@ -148,9 +167,10 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
   <td><audio controls style="width: 110px;" src="audio_examples/vqvae/KIELk66_k66be063_generated_e2e.wav"></audio></td>
 </tr>
 
-
 </table>
 
+
+<br>
 <div style="text-align: center;">
 <h2>Phoneme-to-Articulatory Conversion</h2>
 </div>
@@ -162,9 +182,27 @@ Given an articulatory-to-acoustic forward model, it is a priori unknown how its 
 <tr>
   <td></td>
  
-  <td>A</td><td>B</td><td>C</td><td>D</td>
-  <td>E</td><td>F</td><td>G</td><td>1</td>
-  <td>2</td><td>3</td>
+  <td>k61be011</td>
+  <td>k61be018</td>
+  <td>k61be023</td>
+  <td>k61be030</td>
+  <td>k61be037</td>
+  <td>k61be061</td>
+  <td>k62be005</td>
+  <td>k62be024</td>
+  <td>k62be086</td>
+  <td>k62be095</td>
+
+  <td>k65be002</td>
+  <td>k65be013</td>
+  <td>k65be017</td>
+  <td>k65be075</td>
+  <td>k65be077</td>
+  <td>k66be008</td>
+  <td>k66be041</td>
+  <td>k66be060</td>
+  <td>k66be062</td>
+  <td>k66be063</td>
 </tr>
 
 
