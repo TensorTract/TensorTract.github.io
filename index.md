@@ -387,3 +387,5 @@ The centerpiece of TensorTract is a vector-quantized variational autoencoder (VQ
 </tr>
 
 </table>
+
+<script src="js/animheader.js"></script>
