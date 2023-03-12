@@ -16,7 +16,17 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <div id="particle-canvas"></div>
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      {% endif %}
+      {% if site.show_links %}
+        <a href="#audio_examples" class="btn">Audio Examples</a>
+      {% endif %}
+    </header>
+
+    <div id="particle-canvas"></div>
 		<script type="text/javascript" src="particle-network.min.js"></script>
 		<script type="text/javascript">
 			var canvasDiv = document.getElementById('particle-canvas');
@@ -29,15 +39,6 @@
 			};
 			var particleCanvas = new ParticleNetwork(canvasDiv, options);
 		</script>
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-      {% if site.show_links %}
-        <a href="#audio_examples" class="btn">Audio Examples</a>
-      {% endif %}
-    </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
