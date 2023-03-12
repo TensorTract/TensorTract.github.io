@@ -393,16 +393,5 @@ The centerpiece of TensorTract is a vector-quantized variational autoencoder (VQ
 
 
 
-<div id="particle-canvas"></div>
-<script type="text/javascript" src="particle-network.min.js"></script>
-<script type="text/javascript">
-	var canvasDiv = document.getElementById('particle-canvas');
-	var options = {
-		particleColor: '#888',
-		background: 'img/demo-bg.jpg',
-		interactive: true,
-		speed: 'medium',
-		density: 'high'
-	};
-	var particleCanvas = new ParticleNetwork(canvasDiv, options);
-</script>
+
+<script src="particle-network.min.js"></script>
