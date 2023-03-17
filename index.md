@@ -455,7 +455,7 @@ Here we demonstrate the acoustic-to-articulatory inversion on other languages. T
   <td><audio controls style="width: 110px;" src="audio_examples/nat/1320-122612-0012.flac"></audio></td>
 </tr>
 <tr><td>L2M+V (NR)</td>
-  <td><audio controls style="width: 110px;" src="audio_examples/l2m/LJ001-0001 (enhanced).wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/LJ001-0001 (enhanced)(1).wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/1320-122612-0000 (enhanced).wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/LJ001-0024 (enhanced).wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/1320-122612-0012 (enhanced).wav"></audio></td>
