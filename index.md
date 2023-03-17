@@ -431,7 +431,10 @@ Here we demonstrate how the intelligibility of the produced samples increases if
 <div style="text-align: justify;">
 Here we demonstrate the acoustic-to-articulatory inversion on other languages. This is challenging, as the audio encoder has never seen the speakers, utterances, or languages during training.
 </div>
+<br>
+<div style="text-align: left;">
 <b>English:</b>
+</div>
 
 <table border="1">
 <tr><td>Model</td><td colspan="12"> Utterances </td></tr>
@@ -462,6 +465,39 @@ Here we demonstrate the acoustic-to-articulatory inversion on other languages. T
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/1320-122612-0000.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/LJ001-0024.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/1320-122612-0012.wav"></audio></td>
+</tr>
+
+
+</table>
+<br>
+<div style="text-align: left;">
+<b>Mandarin:</b>
+</div>
+<table border="1">
+<tr><td>Model</td><td colspan="12"> Utterances </td></tr>
+<tr>
+  <td></td>
+ 
+  <td>A</td>
+  <td>B</td>
+  <td>C</td>
+
+</tr>
+
+<tr><td>Reference</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/aishell3_example_8.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/aishell3_example_10.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/aishell3_example_11.wav"></audio></td>
+</tr>
+<tr><td>L2M+V (NR)</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/aishell3_example_8 (enhanced).wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/aishell3_example_10 (enhanced).wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/aishell3_example_11 (enhanced).wav"></audio></td>
+</tr>
+<tr><td>L2M+V</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/aishell3_example_8.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/aishell3_example_10.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/aishell3_example_11.wav"></audio></td>
 </tr>
 
 
