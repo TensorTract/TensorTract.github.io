@@ -392,7 +392,9 @@ The centerpiece of TensorTract is a vector-quantized variational autoencoder (VQ
 
 <br>
 <p><b>Tested on natural utterances</b> (MLS German data set).</p>
-<p>Here we demonstrate how the intelligibility of the produced samples increases if the acoustic noise (which is induced by articulatory noise) is suppressed. Future work should address how to regularize the neural network to output smooth, non-noisy articulatory trajectories in case of natural speech input where no motor loss is available. In the table <b>NR</b> means noise reduction is applied.</p>
+<div style="text-align: justify;">
+Here we demonstrate how the intelligibility of the produced samples increases if the acoustic noise (which is induced by articulatory noise) is suppressed. Future work should address how to regularize the neural network to output smooth, non-noisy articulatory trajectories in case of natural speech input where no motor loss is available. In the table <b>NR</b> means noise reduction is applied.
+</div>
 
 <table border="1">
 <tr><td>Model</td><td colspan="12"> Utterances </td></tr>
@@ -410,19 +412,15 @@ The centerpiece of TensorTract is a vector-quantized variational autoencoder (VQ
   <td><audio controls style="width: 110px;" src="audio_examples/nat/2497_1614_000000.flac"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/nat/10148_10119_000697.flac"></audio></td>
 </tr>
-<tr><td>P2L+V</td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi038.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi063.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi064.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi072.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/p2l_zero/KIELdlm_dlmsi092.wav"></audio></td>
+<tr><td>L2M+V+NR</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/252_1614_000008 (enhanced).wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/2497_1614_000000 (enhanced).wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/10148_10119_000697 (enhanced).wav"></audio></td>
 </tr>
-<tr><td>VTL (Rule-based)</td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/dlm_dlmsi038.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/dlm_dlmsi063.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/dlm_dlmsi064.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/dlm_dlmsi072.wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/vtl/dlm_dlmsi092.wav"></audio></td>
+<tr><td>L2M+V</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/252_1614_000008.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/2497_1614_000000.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/10148_10119_000697.wav"></audio></td>
 </tr>
 
 
