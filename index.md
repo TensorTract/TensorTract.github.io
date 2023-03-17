@@ -432,9 +432,9 @@ Here we demonstrate how the intelligibility of the produced samples increases if
 Here we demonstrate the acoustic-to-articulatory inversion on other languages. This is challenging, as the audio encoder has never seen the speakers, utterances, or languages during training.
 </div>
 <br>
-<div style="text-align: left;">
+
 <b>English:</b>
-</div>
+
 
 <table border="1">
 <tr><td>Model</td><td colspan="12"> Utterances </td></tr>
@@ -470,9 +470,9 @@ Here we demonstrate the acoustic-to-articulatory inversion on other languages. T
 
 </table>
 <br>
-<div style="text-align: left;">
+
 <b>Mandarin:</b>
-</div>
+
 <table border="1">
 <tr><td>Model</td><td colspan="12"> Utterances </td></tr>
 <tr>
