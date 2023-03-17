@@ -412,15 +412,56 @@ Here we demonstrate how the intelligibility of the produced samples increases if
   <td><audio controls style="width: 110px;" src="audio_examples/nat/2497_1614_000000.flac"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/nat/10148_10119_000697.flac"></audio></td>
 </tr>
-<tr><td>L2M+V+NR</td>
+<tr><td>L2M+V (NR)</td>
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/252_1614_000008 (enhanced).wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/2497_1614_000000 (enhanced).wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/l2m/10148_10119_000697 (enhanced).wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/10148_10119_000697 (enhanced)(2).wav"></audio></td>
 </tr>
 <tr><td>L2M+V</td>
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/252_1614_000008.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/2497_1614_000000.wav"></audio></td>
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/10148_10119_000697.wav"></audio></td>
+</tr>
+
+
+</table>
+
+<br>
+<p><b>Tested on unseen languages</b> (LJSpeech, LibriSpeech, aishell-3).</p>
+<div style="text-align: justify;">
+Here we demonstrate the acoustic-to-articulatory inversion on other languages. This is challenging, as the audio encoder has never seen the speakers, utterances, or languages during training.
+</div>
+<b>English:</b>
+
+<table border="1">
+<tr><td>Model</td><td colspan="12"> Utterances </td></tr>
+<tr>
+  <td></td>
+ 
+  <td>LJ001-0001</td>
+  <td>1320-122612-0000</td>
+  <td>LJ001-0024</td>
+  <td>1320-122612-0012</td>
+
+</tr>
+
+<tr><td>Reference</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/LJ001-0001.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/1320-122612-0000.flac"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/LJ001-0024.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/1320-122612-0012.flac"></audio></td>
+</tr>
+<tr><td>L2M+V (NR)</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/LJ001-0001 (enhanced).wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/1320-122612-0000 (enhanced).wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/LJ001-0024 (enhanced).wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/1320-122612-0012 (enhanced).wav"></audio></td>
+</tr>
+<tr><td>L2M+V</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/LJ001-0001.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/1320-122612-0000.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/LJ001-0024.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/1320-122612-0012.wav"></audio></td>
 </tr>
 
 
