@@ -46,7 +46,7 @@ The centerpiece of TensorTract is a vector-quantized variational autoencoder (VQ
 <div style="text-align: left">
 The following abbreviations have been used in the tables below:
 </div>
-<div style="text-align: justified">
+<div style="text-align: left; justified">
 <ul>
 <li>
 <b>P2L+V:</b> Phoneme sequence was mapped to the latent using the P2L model, then the latent was decoded using the L2M model. The rsulting articulatory trajectories were synthesized with VTL.
