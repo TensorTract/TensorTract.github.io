@@ -46,29 +46,33 @@ The centerpiece of TensorTract is a vector-quantized variational autoencoder (VQ
 <div style="text-align: left">
 The following abbreviations have been used in the tables below:
 </div>
-<div style="text-align: left">
+<div style="text-align: justified">
+<ul>
+<li>
 <b>P2L+V:</b> Phoneme sequence was mapped to the latent using the P2L model, then the latent was decoded using the L2M model. The rsulting articulatory trajectories were synthesized with VTL.
-</div>
-<div style="text-align: left">
+</li>
+<li>
 <b>VTL (Rule-based):</b> Speech was synthesized using the rule-based phoneme-to-speech functionality of VTL, which is based on vocal tract state presets derived from magnetic resonance imaging data.
-</div>
-<div style="text-align: left">
+</li>
+<li>
 <b>M2L+H:</b> The motor trajectories obtained from the VTL (Rule-based) configuration were synthesized using the M2L model and a pretrained Hifi-GAN. The speaker identity of the original natural speakers were used in the decoder.
-</div>
-<div style="text-align: left">
+</li>
+<li>
 <b>M2L+H (V-ID):</b> Similar to M2L+H, but the speaker identity of the VTL speaker was used in the decoder.
-</div>
-<div style="text-align: left">
+</li>
+<li>
 <b>L2M+V:</b> Audio input features were mapped to the latent using the VQ-VAE encoder, then the latent was decoded using the L2M model. The rsulting articulatory trajectories were synthesized with VTL.
-</div>
-<div style="text-align: left">
+</li>
+<li>
 <b>L2M+H:</b> Audio input features were mapped to the latent using the VQ-VAE encoder, then the latent was decoded using the L2M model. The resulting articulatory trajectories were synthesized using the M2L model and a pretrained Hifi-GAN. The speaker identity of the original natural speakers were used in the decoder.
-</div>
-<div style="text-align: left">
+</li>
+<li>
 <b>L2M+H (V-ID):</b> Similar to L2M+H, but the speaker identity of the VTL speaker was used in the decoder.
-</div>
-<div style="text-align: left">
+</li>
+<li>
 <b>VQV+H (V-ID):</b> Audio input features were encoded and decoded using the VQ-VAE model. The decoded features were synthesized using Hifi-GAN.
+</li>
+</ul>
 </div>
 <div style="text-align: left">
 Note that Hifi-GAN was not fine-tuned to the reconstructed features. Thus, the syntheses with Hifi-GAN do not sound as natural as they could.
