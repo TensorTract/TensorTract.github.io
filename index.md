@@ -461,3 +461,80 @@ Here we demonstrate how the intelligibility of the produced samples increases if
 
 </table>
 
+
+<br>
+<p><b>Tested on unseen languages</b> (LJSpeech, LibriSpeech, aishell-3).</p>
+<div style="text-align: justify;">
+Here we demonstrate the acoustic-to-articulatory inversion on other languages. This is challenging, as the audio encoder has never seen the speakers, utterances, or languages during training.
+</div>
+<br>
+
+<b>English:</b>
+
+
+<table border="1">
+<tr><td>Model</td><td colspan="12"> Utterances </td></tr>
+<tr>
+  <td></td>
+ 
+  <td>LJ001-0001</td>
+  <td>1320-122612-0000</td>
+  <td>LJ001-0024</td>
+  <td>1320-122612-0012</td>
+
+</tr>
+
+<tr><td>Reference</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/LJ001_0001.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/1320_122612_0000.flac"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/LJ001_0024.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/1320_122612_0012.flac"></audio></td>
+</tr>
+<tr><td>L2M+V (NR)</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/LJ001_0001_1_enhanced.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/1320_122612_0000_enhanced.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/LJ001_0024_enhanced.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/1320_122612_0012_enhanced.wav"></audio></td>
+</tr>
+<tr><td>L2M+V</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/LJ001_0001.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/1320_122612_0000.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/LJ001_0024.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/1320_122612_0012.wav"></audio></td>
+</tr>
+
+
+</table>
+<br>
+
+<b>Mandarin:</b>
+
+<table border="1">
+<tr><td>Model</td><td colspan="12"> Utterances </td></tr>
+<tr>
+  <td></td>
+ 
+  <td>A</td>
+  <td>B</td>
+  <td>C</td>
+
+</tr>
+
+<tr><td>Reference</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/aishell3_example_8.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/aishell3_example_10.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/nat/aishell3_example_11.wav"></audio></td>
+</tr>
+<tr><td>L2M+V (NR)</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/aishell3_example_8_enhanced.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/aishell3_example_10_enhanced.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/aishell3_example_11_enhanced.wav"></audio></td>
+</tr>
+<tr><td>L2M+V</td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/aishell3_example_8.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/aishell3_example_10.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/aishell3_example_11.wav"></audio></td>
+</tr>
+
+
+</table>
