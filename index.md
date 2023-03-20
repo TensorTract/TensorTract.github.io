@@ -71,7 +71,7 @@ The following abbreviations have been used in the tables below:
 <b>L2M+H (V-ID):</b> Similar to L2M+H, but the speaker identity of the VTL speaker was used in the decoder.
 </li>
 <li>
-<b>VQV+H (V-ID):</b> Audio input features were encoded and decoded using the VQ-VAE model. The decoded features were synthesized using Hifi-GAN.
+<b>VQV+H:</b> Audio input features were encoded and decoded using the VQ-VAE model. The decoded features were synthesized using Hifi-GAN.
 </li>
 </ul>
 </div>
