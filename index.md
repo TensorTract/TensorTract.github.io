@@ -89,6 +89,9 @@ Note that Hifi-GAN was not fine-tuned to the reconstructed features. Thus, the s
 
 <p><b>Tested on natural phoneme sequences</b> (KIEL data set, Berlin sentences).</p>
 
+
+<p><b>Please note:</b> The audio files can be played with Firefox and Google Chrome, but problems were noticed when playing on Safari.</p>
+
 <table border="1">
 <tr><td>Model</td><td colspan="12"> Utterances </td></tr>
 <tr>
