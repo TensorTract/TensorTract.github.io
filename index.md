@@ -477,10 +477,10 @@ Here we demonstrate the acoustic-to-articulatory inversion on other languages. T
 <tr>
   <td></td>
  
-  <td>LJ001-0001</td>
-  <td>1320-122612-0000</td>
-  <td>LJ001-0024</td>
-  <td>1320-122612-0012</td>
+  <td>LJ001_0001</td>
+  <td>1320_122612_0000</td>
+  <td>LJ001_0024</td>
+  <td>1320_122612_0012</td>
 
 </tr>
 
