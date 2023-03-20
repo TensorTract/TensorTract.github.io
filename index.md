@@ -44,6 +44,40 @@ TensorTract is a compound model of multiple deep neural networks. It is capable 
 The centerpiece of TensorTract is a vector-quantized variational autoencoder (VQ-VAE), which maps log-melspectrograms via an TCN-based encoder to a speaker independent quantized latent representation and then back to log-mel features via a speaker and pitch conditioned TCN decoder. The VQ-VAE is trained on both natural and synthetic speech, whereby the latter is generated randomly using VTL. In subsequent training processes, the synthetic articulatory trajectories are mapped to the quantized latent via a multihead attention (MHA)-BiGRU forward model M2L (motor-to-latent) and a respective inverse model L2M (latent-to-motor). This creates a link between natural speech data and synthetic articulatory trajectories. Further, phoneme annotations of the natural speech are mapped to the latent via MHA+TCN-based forward model P2L (phoneme-to-latent). This effectively enables the control of VTL via natural speech and/or phoneme sequence input.
 </div>
 
+<div style="text-align: left">
+The following abbreviations have been used in the tables below:
+</div>
+<div style="text-align: left">
+<ul>
+<li>
+<b>P2L+V:</b> Phoneme sequence was mapped to the latent using the P2L model, then the latent was decoded using the L2M model. The rsulting articulatory trajectories were synthesized with VTL.
+</li>
+<li>
+<b>VTL (Rule-based):</b> Speech was synthesized using the rule-based phoneme-to-speech functionality of VTL, which is based on vocal tract state presets derived from magnetic resonance imaging data.
+</li>
+<li>
+<b>M2L+H:</b> The motor trajectories obtained from the VTL (Rule-based) configuration were synthesized using the M2L model and a pretrained Hifi-GAN. The speaker identity of the original natural speakers were used in the decoder.
+</li>
+<li>
+<b>M2L+H (V-ID):</b> Similar to M2L+H, but the speaker identity of the VTL speaker was used in the decoder.
+</li>
+<li>
+<b>L2M+V:</b> Audio input features were mapped to the latent using the VQ-VAE encoder, then the latent was decoded using the L2M model. The rsulting articulatory trajectories were synthesized with VTL.
+</li>
+<li>
+<b>L2M+H:</b> Audio input features were mapped to the latent using the VQ-VAE encoder, then the latent was decoded using the L2M model. The resulting articulatory trajectories were synthesized using the M2L model and a pretrained Hifi-GAN. The speaker identity of the original natural speakers were used in the decoder.
+</li>
+<li>
+<b>L2M+H (V-ID):</b> Similar to L2M+H, but the speaker identity of the VTL speaker was used in the decoder.
+</li>
+<li>
+<b>VQV+H (V-ID):</b> Audio input features were encoded and decoded using the VQ-VAE model. The decoded features were synthesized using Hifi-GAN.
+</li>
+</ul>
+</div>
+<div style="text-align: justify">
+Note that Hifi-GAN was not fine-tuned to the reconstructed features. Thus, the syntheses with Hifi-GAN do not sound as natural as they could.
+</div>
 
 <br>
 <div style="text-align: center;">
