@@ -448,9 +448,9 @@ Here we demonstrate how the intelligibility of the produced samples increases if
   <td><audio controls style="width: 110px;" src="audio_examples/nat/10148_10119_000697.flac"></audio></td>
 </tr>
 <tr><td>L2M+V (NR)</td>
-  <td><audio controls style="width: 110px;" src="audio_examples/l2m/252_1614_000008 (enhanced).wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/l2m/2497_1614_000000 (enhanced).wav"></audio></td>
-  <td><audio controls style="width: 110px;" src="audio_examples/l2m/10148_10119_000697 (enhanced)(2).wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/252_1614_000008_enhanced.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/2497_1614_000000_enhanced.wav"></audio></td>
+  <td><audio controls style="width: 110px;" src="audio_examples/l2m/10148_10119_000697_enhanced.wav"></audio></td>
 </tr>
 <tr><td>L2M+V</td>
   <td><audio controls style="width: 110px;" src="audio_examples/l2m/252_1614_000008.wav"></audio></td>
